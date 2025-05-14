@@ -1,22 +1,33 @@
 body{
-    border-left-width : 250px; 
+    border-left-width : 350px; 
 	border-left-style : solid; 
-	border-left-color :greenyellow; 
-    border-right-width: 250px;
+	border-left-color :beige; 
+    border-right-width: 350px;
     border-right-style : solid; 
-	border-right-color :greenyellow; 
+	border-right-color :beige; 
+    border-bottom-width: 80px;
+    border-bottom-style : solid;
+    border-bottom-color: beige;
+    border-top-width : 50px;
+    border-top-style : solid;
+    border-top-color :beige;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    bottom: 100px;
 }
 
 .titre{
     text-align:center;
     font-size: 35px;
-    color:blue;
+    color:green;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif 
 }
 
 .soustitre{
     font-size: 25px;
-    color:aqua;
+    color:red;
     margin-right:450px;
 }
 
@@ -34,10 +45,39 @@ body{
 
 .soustitre1{
     font-size: 25px;
-    color:aqua;
+    color:red;
     margin-right:250px;
 }
 
 img {
-  border-radius:25%;
+   
+    width: 170px;        /* Largeur de l'image */
+    height: 200px;       /* Hauteur de l'image */
+    object-fit: cover;   /* Ajuste l'image sans la déformer */
+    border-radius: 50%;  /* Rend l'image ronde */
+    border: 2px solid #333; /* (Optionnel) Bordure autour de l'image */
+    position: absolute;
+    top: 80;
+    right: 380;
+    background-color: cadetblue;
+}
+
+.information{
+    font-size: 20px;
+    text-align:justify;
+    left:380;
+    top: 80;
+    position: absolute;
+    background-color: cadetblue;
+}
+
+.titreinfo{
+    font-size: 25px;
+    color:red;
+}
+
+.couleurdefond{
+    background-color: cadetblue;
+margin-top: 200px;
+
 }
