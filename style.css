@@ -1,0 +1,43 @@
+body{
+    border-left-width : 250px; 
+	border-left-style : solid; 
+	border-left-color :greenyellow; 
+    border-right-width: 250px;
+    border-right-style : solid; 
+	border-right-color :greenyellow; 
+    text-align: center;
+}
+
+.titre{
+    text-align:center;
+    font-size: 35px;
+    color:blue;
+}
+
+.soustitre{
+    font-size: 25px;
+    color:aqua;
+    margin-right:450px;
+}
+
+.date{
+    font-size:15px;
+    margin-right:555px;
+    font-weight: bolder;
+}
+
+.texte{
+    font-size:20px;
+    margin-left:395px;
+    text-align:justify;
+}
+
+.soustitre1{
+    font-size: 25px;
+    color:aqua;
+    margin-right:250px;
+}
+
+img {
+  border-radius:25%;
+}
